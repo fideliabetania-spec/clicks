@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Web Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="juego-contenedor">
+        <h1>🚀 Clicker Web Game 🚀</h1>
+
+        <div id="contadores">
+            <p>Clics Totales: <span id="clicks-contador">0</span></p>
+            <p>Multiplicador: <span id="multiplicador-contador">x1</span></p>
+        </div>
+
+        <button id="boton-click">
+            ¡HAZ CLIC AQUÍ!
+        </button>
+        
+        <hr>
+
+        <div id="prestigio">
+            <h2>✨ Renacimiento ✨</h2>
+            <p id="costo-renacimiento">Costo: 100 Clics</p>
+            <button id="boton-renacer" disabled>
+                Renacer
+            </button>
+            <p id="mensaje-renacer"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
