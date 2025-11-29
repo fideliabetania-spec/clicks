@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#juego-contenedor {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    color: #333;
+}
+
+#contadores p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Estilo para el botón de clic principal */
+#boton-click {
+    font-size: 1.5em;
+    padding: 20px 40px;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+#boton-click:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el botón de Renacer */
+#boton-renacer {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#boton-renacer:not(:disabled):hover {
+    background-color: #0056b3;
+}
+
+#boton-renacer:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
